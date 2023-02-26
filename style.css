@@ -1,0 +1,100 @@
+header {
+  background-color: gray;
+  text-align: center;
+  padding: 2em;
+  margin: 0;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  margin: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid lavender;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: lightgray;
+  border: 1px solid bisque;
+  color: black;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 1em;
+  display: block;
+  margin-left: auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: right;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+}
+
+th {
+  background-color: #eee;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot th:nth-child(2) {
+  text-align: center;
+}
+
+tfoot th:last-child {
+  text-align: center;
+}
+
+tfoot td:last-child {
+  font-weight: bold;
+ 
+}
+.red-background {
+  background-color: red;
+}
+
+#total-monthly-cost {
+  font-weight: bold;
+  padding-top: 2em;
+  margin-top: 1em;
+  text-align: right;
+  font-size: large;
+}
